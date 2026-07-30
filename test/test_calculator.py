@@ -1,4 +1,4 @@
-from calculator import add
+import calculator
 
 def test_add():
-    assert add(2, 3) == 5
+    assert calculator.add(2, 3) == 5
