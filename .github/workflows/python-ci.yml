@@ -30,7 +30,7 @@ jobs:
 
     steps:
       uses: actions/checkout@v4
-      uses: action/pyithon@v5
+      uses: action/setup-python@v5
 
       run: |
         python -m pip install --upgrade pip
