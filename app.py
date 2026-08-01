@@ -1,1 +1,1 @@
-print(10/0)
+print("Hello github actions")
